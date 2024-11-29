@@ -45,5 +45,16 @@ Route::get('/planets', function () {
         ],
     ];
 
+    if (request()->has('planets')) {
+        $planetName = request('planets');
+        $planet = collect($planets)->firstWhere('name', ucfirst($planetName));
+
+        if ($planet) {
+            return view('planets', ['planets' => [$planet]]);
+        } else {
+            return response("Planet not found", 404);
+        }
+    }
+
     return view('planets', ['planets' => $planets]);
 });
