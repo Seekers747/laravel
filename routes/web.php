@@ -17,14 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Opdracht: de eerste route
-
-// Route::get('/planets', function () {
-//     return (["Uranus", "Jupiter", "Mars", "Aarde", "Saturnus", "Pluto", "Neptunus", "Venus"]);
-// });
-
-// Opdracht: Views
-
 Route::get('/planets', function () {
     $planets = [
         [
@@ -52,7 +44,7 @@ Route::get('/planets', function () {
         if ($planet) {
             return view('planets', ['planets' => [$planet]]);
         } else {
-            return response("Planet not found", 404);
+            return response("Planet does not exist");
         }
     }
 
