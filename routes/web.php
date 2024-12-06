@@ -50,3 +50,32 @@ Route::get('/planets', function () {
 
     return view('planets', ['planets' => $planets]);
 });
+
+Route::get('/planets/{planet}', function ($planet) {
+    $planets = [
+        'Mars' => [
+            'name' => 'Mars',
+            'description' => 'Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury.'
+        ],
+        'Venus' => [
+            'name' => 'Venus',
+            'description' => 'Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty.'
+        ],
+        'Earth' => [
+            'name' => 'Earth',
+            'description' => 'Our home planet is the third planet from the Sun, and the only place we know of so far thats inhabited by living things.'
+        ],
+        'Jupiter' => [
+            'name' => 'Jupiter',
+            'description' => 'Jupiter is a gas giant and doesn\'t have a solid surface, but it may have a solid inner core about the size of Earth.'
+        ],
+    ];
+
+    $planetData = $planets[ucfirst($planet)];
+
+    if ($planetData) {
+        return view('planet-detail', ['planet' => $planetData]);
+    } else {
+        return response("Planet does not exist");
+    }
+});
