@@ -1,0 +1,59 @@
+[33mcommit 0935d004c53064e0346718f6f6c329837a3f6547[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: unknown <imraan.mohamedhoesein@gmail.com>
+Date:   Sun Mar 16 13:52:21 2025 +0100
+
+    alles gefixt tot aan opdracht eloquent
+
+[33mcommit ae3f1fa1fdbc353cc97983fb8f9856b51d322491[m
+Author: unknown <imraan.mohamedhoesein@gmail.com>
+Date:   Sun Mar 2 21:18:17 2025 +0100
+
+    eloquent word nu gebruikt
+
+[33mcommit badafb03e7e348d7d5232ae57b386c20095ac300[m
+Author: unknown <imraan.mohamedhoesein@gmail.com>
+Date:   Sun Feb 16 14:24:09 2025 +0100
+
+    table via migrations
+
+[33mcommit bedb83bbe63044263184a84ec8bc21935327f816[m
+Author: unknown <imraan.mohamedhoesein@student.rocva.nl>
+Date:   Fri Dec 6 10:14:53 2024 +0100
+
+    can now use planets/(name of planet)
+
+[33mcommit 4f2082d6c280b7b25245ef2056d3a1e85f52e9cd[m
+Author: unknown <imraan.mohamedhoesein@student.rocva.nl>
+Date:   Fri Dec 6 09:51:33 2024 +0100
+
+    updated error message
+
+[33mcommit 1c1073e4bf71171dab4482654756e848ec4ab19e[m
+Author: unknown <imraan.mohamedhoesein@student.rocva.nl>
+Date:   Fri Nov 29 11:16:52 2024 +0100
+
+    opdracht requests af
+
+[33mcommit 36bf6f5c871753acedc70e9c468fbc2608845f32[m
+Author: unknown <imraan.mohamedhoesein@student.rocva.nl>
+Date:   Fri Nov 29 10:34:05 2024 +0100
+
+    opdracht: views. af
+
+[33mcommit d4e15c9ac2a7ae0cfac0ff9f8273804b8be456c8[m
+Author: unknown <imraan.mohamedhoesein@student.rocva.nl>
+Date:   Mon Nov 25 12:19:45 2024 +0100
+
+    planeten functie
+
+[33mcommit 9936a66deea52dcafc182361e114ca1c615f19f3[m
+Author: unknown <imraan.mohamedhoesein@student.rocva.nl>
+Date:   Sun Nov 24 22:10:18 2024 +0100
+
+    all files
+
+[33mcommit 1e07cdf9c763fdb9d94f781c623762cfa3d7247c[m
+Author: unknown <imraan.mohamedhoesein@student.rocva.nl>
+Date:   Sun Nov 24 22:09:46 2024 +0100
+
+    first commit
