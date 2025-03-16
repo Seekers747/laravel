@@ -14,6 +14,7 @@
                 <tr>
                     <th>Description</th>
                     <th>Size (in km)</th>
+                    <th>Solar System</th>
                     <th>Created At</th>
                     <th>Updated At</th>
                 </tr>
@@ -22,6 +23,7 @@
                 <tr>
                     <td>{{ $planetData->description }}</td>
                     <td>{{ $planetData->size_in_km }}</td>
+                    <td>{{ $planetData->solarSystem->name }}</td>
                     <td>{{ $planetData->created_at->format('Y-m-d H:i:s') }}</td>
                     <td>{{ $planetData->updated_at->format('Y-m-d H:i:s') }}</td>
                 </tr>
