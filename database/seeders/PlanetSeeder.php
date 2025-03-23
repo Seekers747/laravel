@@ -37,7 +37,19 @@ class PlanetSeeder extends Seeder
                 'description' => 'Jupiter is a gas giant and doesn\'t have a solid surface, but it may have a solid inner core about the size of Earth.',
                 'size_in_km' => 69911,
                 'solar_system_id' => $milkyway->id
-            ]
+            ],
+            [
+                'name' => 'Proxima Centauri B',
+                'description' => 'Proxima Centauri B is a star system in the Andromeda Galaxy. It is about 4.24 light-years away from Earth.',
+                'size_in_km' => 142,
+                'solar_system_id' => $andromeda->id
+            ],
+            [
+                'name' => 'Aldebaran',
+                'description' => 'Aldebaran is a red dwarf star in the Andromeda Galaxy. It is about 4.7 light-years away from Earth.',
+                'size_in_km' => 129,
+                'solar_system_id' => $andromeda->id
+            ],
         ];
 
         foreach ($planets as $planet) {
