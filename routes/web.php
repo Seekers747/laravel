@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
+use App\Http\Controllers\RoleUserController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -15,6 +16,7 @@ Route::get('/planets', [PlanetController::class, 'index']);
 // Route naar een specifieke planeet
 Route::get('/planets/{planet}', [PlanetController::class, 'show']);
 
+Route::get('/role-user', [RoleUserController::class, 'index']);
 
 
 
